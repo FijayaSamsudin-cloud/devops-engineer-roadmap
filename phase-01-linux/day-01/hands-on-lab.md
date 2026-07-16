@@ -228,7 +228,7 @@ Mengetahui lokasi direktori kerja sangat penting untuk menghindari kesalahan saa
 
 # Screenshot Hasil Hands-on Lab
 
-![Hands-on Lab Hari 1](assets/screenshots/day-01/hands-on-lab-result.png)
+![Hands-on Lab Hari 1](assets/screenshots/hands-on-lab-result.png)
 
 ---
 
