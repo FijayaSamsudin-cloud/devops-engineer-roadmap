@@ -31,7 +31,7 @@ Pada hari pertama saya mempelajari konsep dasar Linux sebagai fondasi untuk menj
 
 ## Screenshot
 
-![Hands-on Lab](assets/screenshots/day-01/hands-on-lab-result.png)
+![Hands-on Lab](phase-01-linux\day-01\assets\screenshots\hands-on-lab-result.png)
 
 ## Skills yang Dipelajari
 
