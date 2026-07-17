@@ -153,33 +153,30 @@ Penggunaan Absolute Path lebih disarankan pada script otomatisasi karena tidak b
 
 # 7. Diagram Struktur Filesystem Linux
 
-```text
-                              /
-                              │
- ┌──────────────┬──────────────┬──────────────┐
- │              │              │
-etc           home           root
- │              │
- │              └────── User Files
- │
- ├──────────────┬──────────────┐
- │              │              │
-usr           var           boot
- │              │
- │              ├──── log
- │              ├──── cache
- │              └──── lib
- │
- ├──────────────┬──────────────┬──────────────┐
- │              │              │
-opt           tmp            dev
-                              │
-                        Hardware Devices
+```mermaid
+graph TD
 
-                 ┌────────────┬────────────┐
-                 │                         │
-               proc                      sys
-          Runtime Information      Hardware Information
+A["/ (Root Directory)"]
+
+A --> ETC["/etc<br>Configuration"]
+A --> HOME["/home<br>User Files"]
+A --> ROOT["/root<br>Root User"]
+A --> VAR["/var<br>Variable Data"]
+A --> USR["/usr<br>Programs"]
+A --> OPT["/opt<br>Optional Software"]
+A --> TMP["/tmp<br>Temporary Files"]
+A --> BOOT["/boot<br>Boot Files"]
+A --> DEV["/dev<br>Devices"]
+A --> PROC["/proc<br>Runtime Information"]
+A --> SYS["/sys<br>Hardware Information"]
+
+VAR --> LOG["log"]
+VAR --> LIB["lib"]
+VAR --> CACHE["cache"]
+
+USR --> BIN["bin"]
+USR --> LOCAL["local"]
+USR --> LIBUSR["lib"]
 ```
 
 ---
