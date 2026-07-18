@@ -127,7 +127,7 @@ Administrator Linux biasanya memverifikasi user aktif sebelum melakukan perubaha
 
 ## Screenshot
 
-![Lab 1](assets/screenshots/screenshot-01-permission-command.png)
+![Lab 1](assets/screenshots/hands-on-lab/01-permission-command.png)
 
 ---
 
@@ -179,7 +179,7 @@ Saat melakukan troubleshooting pada server Linux, command `id` merupakan salah s
 
 ## Screenshot
 
-![Lab 2](assets/screenshots/screenshot-01-permission-command.png)
+![Lab 2](assets/screenshots/hands-on-lab/01-permission-command.png)
 
 ---
 
@@ -232,7 +232,7 @@ Pendekatan ini mempermudah pengelolaan akses ketika jumlah pengguna bertambah.
 
 ## Screenshot
 
-![Lab 3](assets/screenshots/screenshot-01-permission-command.png)
+![Lab 3](assets/screenshots/hands-on-lab/01-permission-command.png)
 
 ---
 
@@ -315,7 +315,7 @@ Command `ls -l` merupakan command yang hampir selalu digunakan oleh Linux Admini
 
 ## Screenshot
 
-![Lab 4](assets/screenshots/screenshot-01-permission-command.png)
+![Lab 4](assets/screenshots/hands-on-lab/01-permission-command.png)
 
 ---
 
@@ -413,7 +413,7 @@ Permission 755 sering digunakan pada script atau direktori aplikasi yang memang 
 
 ## Screenshot
 
-![Lab 5](assets/screenshots/screenshot-01-permission-command.png)
+![Lab 5](assets/screenshots/hands-on-lab/01-permission-command.png)
 
 ---
 
@@ -518,7 +518,7 @@ Agar seluruh file aplikasi dimiliki oleh web server.
 
 ## Screenshot
 
-![Lab 6](assets/screenshots/screenshot-02-ownership-umask.png)
+![Lab 6](assets/screenshots/hands-on-lab/02-ownership-umask.png)
 
 ---
 
@@ -586,7 +586,7 @@ Pada perusahaan besar, file project biasanya dimiliki oleh satu owner tetapi dib
 
 ## Screenshot
 
-![Lab 7](assets/screenshots/screenshot-02-ownership-umask.png)
+![Lab 7](assets/screenshots/hands-on-lab/02-ownership-umask.png)
 
 ---
 
@@ -775,7 +775,7 @@ Sebagian besar server Linux menggunakan nilai umask yang lebih ketat untuk mengu
 
 ## Screenshot
 
-![Lab 8](assets/screenshots/screenshot-02-ownership-umask.png)
+![Lab 8](assets/screenshots/hands-on-lab/02-ownership-umask.png)
 
 ---
 

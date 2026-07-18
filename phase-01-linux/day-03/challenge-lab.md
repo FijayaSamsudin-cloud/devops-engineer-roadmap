@@ -140,7 +140,7 @@ Hal ini penting karena Linux Kernel melakukan proses pengecekan permission berda
 
 > **Gambar 1 — Verifikasi User (whoami, id, groups)**
 
-![Gambar1](assets/screenshots/01-user-information.png)
+![Gambar1](assets/screenshots/chellange/01-user-information.png)
 
 ---
 
@@ -182,7 +182,7 @@ Masing-masing direktori memiliki fungsi berbeda sehingga nantinya akan diberikan
 
 > **Gambar 2 — Struktur Direktori Menggunakan tree**
 
-![Gambar2](assets/screenshots/02-directory-structure.png)
+![Gambar2](assets/screenshots/chellange/02-directory-structure.png)
 
 ---
 
@@ -215,7 +215,7 @@ Tujuannya adalah mengetahui permission default yang diberikan Linux setelah dire
 
 > **Gambar 3 — Permission Awal Menggunakan ls -l dan ls -ld**
 
-![Gambar3](assets/screenshots/03-directory-permission.png)
+![Gambar3](assets/screenshots/chellange/03-directory-permission.png)
 
 ---
 
@@ -249,7 +249,7 @@ Konfigurasi dilakukan berdasarkan kebutuhan operasional serta mempertimbangkan a
 
 > **Gambar 4 — Hasil Perubahan Permission**
 
-![Gambar4](assets/screenshots/04-file-permission.png)
+![Gambar4](assets/screenshots/chellange/04-file-permission.png)
 
 ---
 
@@ -277,7 +277,7 @@ Selain itu dilakukan pula perubahan group agar file dapat diakses oleh group yan
 
 > **Gambar 5 — Demonstrasi Perubahan Permission Menggunakan `chmod`**
 
-![Gambar5](assets/screenshots/05-chmod-demo.png)
+![Gambar5](assets/screenshots/chellange/05-chmod-demo.png)
 
 ---
 
@@ -307,7 +307,7 @@ Dalam lingkungan produksi, administrator sering melakukan perubahan ownership ma
 
 > **Gambar 6 — Demonstrasi Perubahan Ownership (`chown`) dan Group (`chgrp`)**
 
-![Gambar6](assets/screenshots/06-chown-chgrp-demo.png)
+![Gambar6](assets/screenshots/chellange/06-chown-chgrp-demo.png)
 
 ---
 
@@ -337,7 +337,7 @@ Tujuan pengujian ini adalah memahami bahwa permission default tidak hanya dipeng
 
 > **Gambar 7 — Demonstrasi Pengaruh `umask` terhadap Permission Default**
 
-![Gambar7](assets/screenshots/07-umask-demo.png)
+![Gambar7](assets/screenshots/chellange/07-umask-demo.png)
 
 ---
 
@@ -365,7 +365,7 @@ Langkah ini merupakan bagian penting sebelum server digunakan pada lingkungan pr
 
 > **Gambar 8 — Verifikasi Akhir Struktur Direktori dan Permission**
 
-![Gambar8](assets/screenshots/08-final-verification.png)
+![Gambar8](assets/screenshots/chellange/08-final-verification.png)
 
 ---
 
