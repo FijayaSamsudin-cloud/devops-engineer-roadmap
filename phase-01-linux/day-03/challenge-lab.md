@@ -6,8 +6,6 @@
 
 ---
 
-# Enterprise File Permission Management
-
 ## Pendahuluan
 
 Linux Permission merupakan salah satu fondasi utama dalam keamanan sistem operasi Linux. Seluruh layanan yang berjalan pada server Linux, seperti web server, database server, file server, container runtime, maupun platform cloud, bergantung pada konfigurasi permission yang benar.
@@ -265,7 +263,7 @@ Konsep ini merupakan implementasi langsung dari Principle of Least Privilege.
 
 ---
 
-# 5. Konfigurasi Ownership dan Group
+# 5. Konfigurasi Permission Menggunakan chmod
 
 Tahap selanjutnya adalah melakukan perubahan ownership serta group pada beberapa file sebagai simulasi pengelolaan file di lingkungan enterprise.
 
