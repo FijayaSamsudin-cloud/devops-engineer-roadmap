@@ -45,10 +45,10 @@ Repository ini dibuat dengan tujuan untuk:
 | Category | Progress |
 |-----------|---------:|
 | Completed Phase | 1 / 10 |
-| Completed Days | 3 |
-| Hands-on Labs | 3 |
-| Challenge Labs | 3 |
-| Mini Projects | 3 |
+| Completed Days | 4 |
+| Hands-on Labs | 4 |
+| Challenge Labs | 4 |
+| Mini Projects | 4 |
 
 ---
 
@@ -270,6 +270,77 @@ Hari ketiga berfokus pada implementasi Linux Permission sebagai dasar keamanan s
 
 ---
 
+---
+
+# 📅 Day 04 — Linux User & Group Management
+
+Hari keempat berfokus pada implementasi **Enterprise Linux Identity Management** menggunakan Ubuntu Server 24.04 LTS yang berjalan pada Amazon EC2.
+
+Pada sesi ini saya mempelajari bagaimana Linux mengelola identitas pengguna (*Identity Management*), autentikasi (*Authentication*), dan otorisasi (*Authorization*) melalui mekanisme User, Group, Primary Group, Secondary Group, Service Account, serta kebijakan hak administratif menggunakan `sudo`.
+
+Seluruh implementasi dilakukan menggunakan studi kasus perusahaan sehingga konfigurasi yang dibuat menyerupai lingkungan produksi (*production-like environment*).
+
+---
+
+## 📚 Materi
+
+- Linux User Management
+- Linux Group Management
+- Human User
+- Service Account
+- Primary Group
+- Secondary Group
+- User Authentication
+- Linux Authorization
+- Sudo Policy
+- Role-Based Access Control (RBAC)
+- Principle of Least Privilege (PoLP)
+- Enterprise Identity Management
+- User Verification
+- Group Verification
+- Security Audit
+
+---
+
+## 📄 Dokumentasi
+
+| Dokumen | Deskripsi |
+|---------|-----------|
+| hands-on-lab.md | Praktik dasar Linux User & Group Management |
+| challenge-lab.md | Enterprise Linux User Management Challenge |
+| mini-project.md | Enterprise Linux Identity Management System |
+
+---
+
+## 📸 Screenshot
+
+### Enterprise Identity Management
+
+![Day04](phase-01-linux/day-04/assets/screenshots/mini-project/15-final-enterprise-validation.png)
+
+---
+
+## 🎯 Skills
+
+- Linux User Management
+- Linux Group Management
+- Identity Management
+- Authentication
+- Authorization
+- Primary Group
+- Secondary Group
+- Service Account
+- Sudo Administration
+- Linux RBAC
+- Principle of Least Privilege
+- Enterprise Linux Administration
+- Linux Security Basics
+
+---
+
+**Status : ✅ Completed**
+
+
 # 🖥️ Environment
 
 | Item | Value |
@@ -289,11 +360,11 @@ Hari ketiga berfokus pada implementasi Linux Permission sebagai dasar keamanan s
 | Item | Total |
 |------|------:|
 | Phase | 1 |
-| Completed Days | 3 |
-| Hands-on Labs | 3 |
-| Challenge Labs | 3 |
-| Mini Projects | 3 |
-| Documentation Files | 9+ |
+| Completed Days | 4 |
+| Hands-on Labs | 4 |
+| Challenge Labs | 4 |
+| Mini Projects | 4 |
+| Documentation Files | 12+ |
 
 ---
 
@@ -301,9 +372,15 @@ Hari ketiga berfokus pada implementasi Linux Permission sebagai dasar keamanan s
 
 Selanjutnya repository ini akan dikembangkan dengan materi berikut:
 
-- Linux User Management
-- Linux Group Management
 - Linux Process Management
+- Process Monitoring
+- Process Lifecycle
+- Job Control
+- Signals
+- Foreground & Background Process
+- System Monitoring
+- Bash Process Management
+- Linux Service Management
 - Systemd
 - Cron Job
 - SSH
@@ -323,7 +400,7 @@ Selanjutnya repository ini akan dikembangkan dengan materi berikut:
 
 **Current Progress**
 
-Day 03 / Day 30
+Day 04 / Day 30
 
 ---
 
