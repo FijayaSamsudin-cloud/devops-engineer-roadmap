@@ -19,7 +19,7 @@
 | Cloud Platform | Amazon Web Services (AWS EC2) |
 | Shell | Bash |
 | Architecture | Enterprise Role-Based Access Control (RBAC) |
-| Author | Kalikali Kali |
+| Author | fijaya samsudin |
 
 ---
 
