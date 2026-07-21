@@ -520,7 +520,7 @@ sleep 500 &
 
 Output:
 
-![Lab06-process](images/day05-lab06-process-before-kill.png)
+![Lab06-process](assets/screenshots/hands-on-lab/day05-lab06-process-before-kill.png)
 
 ---
 
@@ -532,7 +532,7 @@ pgrep sleep
 
 Output:
 
-![Lab06-pid](images/day05-lab06-process-pid.png)
+![Lab06-pid](assets/screenshots/hands-on-lab/day05-lab06-process-pid.png)
 
 PID:
 
@@ -550,7 +550,7 @@ kill 50547
 
 Output:
 
-![Lab06-kill](images/day05-lab06-kill-process.png)
+![Lab06-kill](assets/screenshots/hands-on-lab/day05-lab06-kill-process.png)
 
 ---
 
@@ -562,7 +562,7 @@ jobs -l
 
 Output:
 
-![Lab06-after](images/day05-lab06-process-after-kill.png)
+![Lab06-after](assets/screenshots/hands-on-lab/day05-lab06-process-after-kill.png)
 
 Terlihat process sudah **Terminated**.
 
@@ -596,7 +596,7 @@ systemctl status ssh
 
 Output:
 
-![Lab07-before](images/day05-lab07-ssh-status-before-restart.png)
+![Lab07-before](assets/screenshots/hands-on-lab/day05-lab07-ssh-status-before-restart.png)
 
 Service dalam kondisi:
 
@@ -614,7 +614,7 @@ sudo systemctl restart ssh
 
 Output:
 
-![Lab07-restart](images/day05-lab07-ssh-restart.png)
+![Lab07-restart](assets/screenshots/hands-on-lab/day05-lab07-ssh-restart.png)
 
 ---
 
@@ -626,7 +626,7 @@ systemctl status ssh
 
 Output:
 
-![Lab07-after](images/day05-lab07-ssh-status-after-restart.png)
+![Lab07-after](assets/screenshots/hands-on-lab/day05-lab07-ssh-status-after-restart.png)
 
 Terlihat Main PID berubah menandakan service berhasil direstart.
 
@@ -660,7 +660,7 @@ journalctl -u ssh
 
 Output:
 
-![Lab08-ssh](images/day05-lab08-journalctl-ssh.png)
+![Lab08-ssh](assets/screenshots/hands-on-lab/day05-lab08-journalctl-ssh.png)
 
 Terlihat:
 
@@ -679,7 +679,7 @@ journalctl -b
 
 Output:
 
-![Lab08-boot](images/day05-lab08-journalctl-boot.png)
+![Lab08-boot](assets/screenshots/hands-on-lab/day05-lab08-journalctl-boot.png)
 
 Menampilkan seluruh proses booting Linux sejak startup.
 
@@ -693,7 +693,7 @@ journalctl -xe
 
 Output:
 
-![Lab08-errors](images/day05-lab08-journalctl-errors.png)
+![Lab08-errors](assets/screenshots/hands-on-lab/day05-lab08-journalctl-errors.png)
 
 Menampilkan log terbaru beserta informasi error dan aktivitas system.
 
@@ -729,7 +729,7 @@ top
 
 Output:
 
-![Lab09-top](images/day05-lab09-top-investigation.png)
+![Lab09-top](assets/screenshots/hands-on-lab/day05-lab09-top-investigation.png)
 
 Analisis:
 
@@ -750,7 +750,7 @@ systemctl status ssh
 
 Output:
 
-![Lab09-status](images/day05-lab09-ssh-service-status.png)
+![Lab09-status](assets/screenshots/hands-on-lab/day05-lab09-ssh-service-status.png)
 
 Status:
 
@@ -770,7 +770,7 @@ journalctl -u ssh
 
 Output:
 
-![Lab09-log](images/day05-lab09-ssh-service-log.png)
+![Lab09-log](assets/screenshots/hands-on-lab/day05-lab09-ssh-service-log.png)
 
 Log menunjukkan:
 
